@@ -18,7 +18,7 @@ export const Auth = observer(() => {
   }
   return (
     <div className={clsx(s.root)}>
-      <Content customClass={s.content}>
+      <Content customClass={s.content} styles={{ paddingLeft: 0 }}>
         <div className={s.logo}>
           <Logo />
         </div>
