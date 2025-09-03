@@ -1,0 +1,26 @@
+.header {
+  padding: 0 24px;
+  position: relative;
+  z-index: 300;
+  box-shadow: 0 3px 5px #00000005, 0 0 2px #0000000d, 0 1px 4px #00000014;
+  transition: background-color .1s linear;
+  background-color: var(--wh-1);
+
+  &.dark {
+    background-color: var(--bg-c1);
+  }
+}
+
+.logo {
+  width: 100%;
+  max-width: 230px;
+
+  svg {
+    width: 150px;
+    height: auto;
+  }
+}
+
+.wrap {
+  width: 100%;
+}

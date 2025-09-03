@@ -1,0 +1,50 @@
+
+:root {
+  --wh-1: #fff;
+  --bg-c1: #1f2937;
+  --c-1: #dfe7ef;
+  --bg-c2: #111827;
+  --accent-a3: #0084f116;
+  --gray-12: #262626;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  
+  font-family: 'Roboto', sans-serif !important;
+
+  &:where {
+    font-family: 'Roboto', sans-serif !important;
+  }
+
+  &.is_light {
+    background-color: #f9fafb;
+  }
+
+  &.is_dark {
+    background-color: var(--bg-c2);
+    color: var(--c-1);
+  }
+}
+
+button {
+  cursor: pointer !important;
+}
+
+main {
+  min-height: 88vh;
+}
+
+.main-page {
+  position: relative;
+  padding: 24px;
+  
+  aside {
+    max-width: 250px;
+  }
+}

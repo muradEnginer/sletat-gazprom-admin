@@ -1,0 +1,6 @@
+export { default as Dashboard } from './dashboard'
+export { default as Hotels } from './hotels'
+export { default as Categories } from './categories'
+export * from './hotels/create'
+export * from './categories/create'
+export * from './categories/view'
